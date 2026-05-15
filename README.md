@@ -58,7 +58,7 @@ Set `YOUR_MODEL_PATH` in each script to your local model path or HuggingFace mod
 
 ## Quick Start
 
-### Step 1: Single-node debug (1 node, 8 GPUs)
+### Step 1: Single-node debug
 
 Start a local Ray cluster and run the debug script:
 
