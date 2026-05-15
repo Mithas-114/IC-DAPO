@@ -88,6 +88,7 @@ TRAIN_FILE=$YOUR_TRAIN_FILE
 TEST_FILE=$YOUR_TEST_FILE
 
 ray job submit --no-wait --runtime-env="${RUNTIME_ENV}" \
+    --submission-id "job-driver-raysubmit-${exp_name}" \
     --working-dir "${WORKING_DIR}" \
     -- python -m recipe.dapo.src.main_dapo \
     data.train_files="${TRAIN_FILE}" \
