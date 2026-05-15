@@ -1,6 +1,6 @@
 # IC-DAPO: In-Context RLVR
 
-Code for the paper *"Good Reasoning Makes Good Demonstrations: Implicit Reasoning Quality Supervision via In-Context Reinforcement Learning"*.
+Code for the paper *"[Good Reasoning Makes Good Demonstrations: Implicit Reasoning Quality Supervision via In-Context Reinforcement Learning](https://github.com/Mithas-114/IC-DAPO/blob/main/paper.pdf)"*.
 
 Based on the [verl](https://github.com/volcengine/verl) framework.
 
