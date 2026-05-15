@@ -28,7 +28,7 @@ IC-DAPO/
 
 ## Environment Setup
 
-See `已有torch的疑问.md` for the full installation walkthrough. Summary:
+Summary:
 
 ```bash
 conda create -n icdapo python=3.10 -y && conda activate icdapo
