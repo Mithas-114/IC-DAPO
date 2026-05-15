@@ -36,7 +36,7 @@ conda create -n icdapo python=3.10 -y && conda activate icdapo
 # Step 1: PyTorch
 pip install -r requirements1.txt
 
-# Step 2: Dependencies (after removing flash_attn and verl lines from requirements2.txt)
+# Step 2: Dependencies
 pip install -r requirements2.txt
 
 # Step 3: flash_attn (must be after torch)
