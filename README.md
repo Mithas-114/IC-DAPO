@@ -98,24 +98,16 @@ To stop the cluster:
 bash verl/multi_node_stop.sh MASTER_IP WORKER_IP1 WORKER_IP2 ...
 ```
 
-## Available Scripts
-
-| Script | Model | Method | Nodes |
-|--------|-------|--------|-------|
-| `run_dapo_1.5b.sh` | 1.5B | DAPO baseline | 4 |
-| `run_dapo_7b.sh` | 7B | DAPO baseline | 16 |
-| `run_icdapo_r1_1.5b.sh` | 1.5B | IC-DAPO (R1 demos) | 8 |
-| `run_icdapo_r1_7b.sh` | 7B | IC-DAPO (R1 demos) | 8 |
-| `run_icdapo_v3_1.5b.sh` | 1.5B | IC-DAPO (V3.1 demos) | 8 |
-| `run_icdapo_v3_7b.sh` | 7B | IC-DAPO (V3.1 demos) | 8 |
-| `run_icdapo_r1_1.5b_debug.sh` | 1.5B | IC-DAPO debug | 1 |
-
 ## Citation
 
 ```bibtex
-@article{mei2025good,
-  title={Good Reasoning Makes Good Demonstrations: Implicit Reasoning Quality Supervision via In-Context Reinforcement Learning},
-  author={Mei, Tiehua and Lv, Minxuan and Pan, Leiyu and Su, Zhenpeng and Hou, Hongru and Chen, Hengrui and Xu, Ao and Yang, Deqing},
-  year={2025}
+@misc{mei2026goodreasoningmakesgood,
+      title={Good Reasoning Makes Good Demonstrations: Implicit Reasoning Quality Supervision via In-Context Reinforcement Learning}, 
+      author={Tiehua Mei and Minxuan Lv and Leiyu Pan and Zhenpeng Su and Hongru Hou and Hengrui Chen and Ao Xu and Deqing Yang},
+      year={2026},
+      eprint={2603.09803},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2603.09803}, 
 }
 ```
