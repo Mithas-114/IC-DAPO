@@ -7,6 +7,7 @@ export NCCL_IB_DISABLE=0
 export NCCL_IB_GID_INDEX=3
 export NCCL_SOCKET_IFNAME=eth
 export NCCL_IB_HCA=mlx5
+export WANDB_MODE=disabled
 
 set -xeuo pipefail
 
